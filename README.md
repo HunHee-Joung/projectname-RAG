@@ -84,7 +84,7 @@ def store_document(self, file_path: str) -> int:
 
 -----
 
-### 2\. 적응형 검색 서버 (`retrieve.py`)
+### 2\. 적응형 검색 서버 (`2. MCP Server (dense, sparse, rrf).py`)
 
 이 스크립트는 사용자의 쿼리를 받아 Qdrant에서 최적의 문서를 검색하고, 그 결과를 지능적으로 재정렬하여 반환하는 API 서버를 구현합니다.
 
