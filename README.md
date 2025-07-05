@@ -24,7 +24,7 @@
 
 ## 상세 분석 및 설명
 
-### 1\. Qdrant 인덱싱 (`index.py`)
+### 1\. Qdrant 인덱싱 (`1. Qdrant Indexing (dense, sparse).py`)
 
 이 스크립트는 원본 문서를 검색 가능한 형태로 가공하여 Qdrant 벡터 데이터베이스에 저장하는 역할을 담당합니다.
 
