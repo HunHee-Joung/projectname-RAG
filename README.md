@@ -81,11 +81,11 @@ def store_document(self, file_path: str) -> int:
     
     return len(all_chunks)
 ```
-2025-07-05 15:50:31,659 - INFO - HTTP Request: GET http://192.168.0.249:6333 "HTTP/1.1 200 OK"
-2025-07-05 15:50:31,660 - INFO - ✅ 검색 엔진 초기화: 192.168.0.249:6333
-2025-07-05 15:50:32,407 - INFO - 📁 문서 로딩 및 인덱싱 시작: data/XXXXXXXXXXXXX.pdf
-2025-07-05 15:50:33,559 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
-2025-07-05 15:50:33,561 - INFO - Going to convert document batch...
+2025-07-05 15:50:31,659 - INFO - HTTP Request: GET http://192.168.0.249:6333 "HTTP/1.1 200 OK"<\n>
+2025-07-05 15:50:31,660 - INFO - ✅ 검색 엔진 초기화: 192.168.0.249:6333<\n>
+2025-07-05 15:50:32,407 - INFO - 📁 문서 로딩 및 인덱싱 시작: data/XXXXXXXXXXXXX.pdf<\n>
+2025-07-05 15:50:33,559 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]<\n>
+2025-07-05 15:50:33,561 - INFO - Going to convert document batch...<\n>
 2025-07-05 15:50:33,561 - INFO - Initializing pipeline for StandardPdfPipeline with options hash d291d1f79894f05d312cc90dd3fdf3d3
 2025-07-05 15:50:33,562 - INFO - Accelerator device: 'cuda:0'
 2025-07-05 15:50:34,838 - INFO - Accelerator device: 'cuda:0'
