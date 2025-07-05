@@ -81,6 +81,7 @@ def store_document(self, file_path: str) -> int:
     
     return len(all_chunks)
 ```
+``` log 
 2025-07-05 15:50:31,659 - INFO - HTTP Request: GET http://192.168.0.249:6333 "HTTP/1.1 200 OK"<\n>
 2025-07-05 15:50:31,660 - INFO - ✅ 검색 엔진 초기화: 192.168.0.249:6333<\n>
 2025-07-05 15:50:32,407 - INFO - 📁 문서 로딩 및 인덱싱 시작: data/XXXXXXXXXXXXX.pdf<\n>
@@ -106,7 +107,6 @@ def store_document(self, file_path: str) -> int:
 2025-07-05 15:50:41,768 - INFO - deleted item in tree at stack: (197, 2) => #/texts/341
 2025-07-05 15:50:41,774 - INFO - deleted item in tree at stack: (197, 1) => #/texts/340
 2025-07-05 15:50:41,780 - INFO - deleted item in tree at stack: (195, 2) => #/texts/338
-...
 2025-07-05 15:50:44,657 - INFO -   - 검색 경로 추천: ✅ Context-Aware Path
 2025-07-05 15:50:44,657 - INFO - =================================================================
 
