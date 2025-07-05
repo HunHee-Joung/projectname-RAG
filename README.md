@@ -127,7 +127,7 @@ def rerank(self, initial_results: List[List], query_embedding: Dict, top_k: int,
 
 -----
 
-### 3\. 청킹 문서 정보 확인 (`viewer` 스크립트)
+### 3\. 청킹 문서 정보 확인 (`3. chunk Check.py` 스크립트)
 
 이 스크립트는 인덱싱이 완료된 후, Qdrant 데이터베이스에 저장된 청크들의 정보를 개발자가 직접 눈으로 확인할 수 있게 해주는 유틸리티입니다.
 
