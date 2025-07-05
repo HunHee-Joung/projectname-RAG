@@ -240,7 +240,46 @@ def display_all_chunks_summary(self):
     # ... (Pandas 출력 옵션 설정) ...
     print(df)
 ```
+``` log
+2025-07-05 14:28:16,881 - INFO - HTTP Request: GET http://192.168.0.249:6333 "HTTP/1.1 200 OK"
+2025-07-05 14:28:16,882 - INFO - HTTP Request: GET http://192.168.0.249:6333/collections "HTTP/1.1 200 OK"
+2025-07-05 14:28:16,883 - INFO - ✅ Qdrant 서버에 연결 성공: 192.168.0.249:6333
+2025-07-05 14:28:16,886 - INFO - HTTP Request: GET http://192.168.0.249:6333/collections/docling_search "HTTP/1.1 200 OK"
+2025-07-05 14:28:16,928 - INFO - ✅ 컬렉션 'docling_search' 확인. 총 43개의 청크가 존재합니다.
+2025-07-05 14:28:16,930 - INFO - 모든 청크의 요약 정보를 가져오는 중...
+2025-07-05 14:28:16,938 - INFO - HTTP Request: POST http://192.168.0.249:6333/collections/docling_search/points/scroll "HTTP/1.1 200 OK"
+2025-07-05 14:28:16,952 - INFO - 👋 데이터 출력이 완료되었습니다. 프로그램을 종료합니다.
 
+========================================================================================================================
+📊 컬렉션 'docling_search' 전체 청크 요약 정보
+========================================================================================================================
+    ID  Type  Page  Is_Ctx    Parent_ID      Self_ID                                                               Text_Preview
+0    0  text     1    True       #/body    #/texts/3  제1장 xxxxxxxxxxxxxxxxxxxxx
+1    1  text     1    True   #/groups/0    #/texts/7  제4조 xxxxxxxxxxxxxxxxxxxx
+2    2  text     1    True   #/groups/1   #/texts/13  제7조 xxxxxxxxxxxxxxxxxxxx
+3    3  text     2    True       #/body   #/texts/20  제1절 xxxxxxxxxxxxxxxxxxx
+4    4  text     2    True       #/body   #/texts/22  제9조 xxxxxxxxxxxxxx
+5    5  text     2    True   #/groups/3   #/texts/25  제10조 xxxxxxxxxxxxxxxxxxxxx
+6    6  text     2    True       #/body   #/texts/30  제2절 xxxxxxxxxxxxxxxxxxxxx
+7    7  text     2    True       #/body   #/texts/35  제3절 xxxxxxxxxxxxxxxxxxxxx
+8    8  text     3    True   #/groups/8   #/texts/54  제17조 xxxxxxxxxxxxxxxxxxxxx
+9    9  text     3    True   #/groups/9   #/texts/70  제18조 xxxxxxxxxxxxxxxxxxxxx
+10  10  text     4    True       #/body   #/texts/79  제1관 xxxxxxxxxxxxxxxxxxxxx
+11  11  text     5    True  #/groups/16  #/texts/112  2. xxxxxxxxxxxxxxxxxxxxx
+12  12  text     5    True  #/groups/17  #/texts/118  3. xxxxxxxxxxxxxxxxxxxxx
+13  13  text     6    True       #/body  #/texts/135  제2관 xxxxxxxxxxxxxxxxxxxxx
+14  14  text     6    True       #/body  #/texts/149  제3관 xxxxxxxxxxxxxxxxxxxxx
+15  15  text     7    True       #/body  #/texts/158  제2절 xxxxxxxxxxxxxxxxxxxxx
+16  16  text     7    True       #/body  #/texts/164  제3절 xxxxxxxxxxxxxxxxxxxxx
+17  17  text     7    True       #/body  #/texts/172  제4절 xxxxxxxxxxxxxxxxxxxxx
+18  18  text     8    True       #/body  #/texts/187  제1절 xxxxxxxxxxxxxxxxxxxxx
+19  19  text    10    True       #/body  #/texts/246  제2절 xxxxxxxxxxxxxxxxxxxxx
+...
+40  40  text     3   False       #/body   #/groups/9  Group Summary: xxxxxxxxxxxxxxxxxxxxx
+41  41  text     5   False       #/body  #/groups/16  Group Summary: xxxxxxxxxxxxxxxxxxxxx
+42  42  text     5   False       #/body  #/groups/17  Group Summary: xxxxxxxxxxxxxxxxxxxxx
+========================================================================================================================
+```
 -----
 
 ## 결론 및 요약
