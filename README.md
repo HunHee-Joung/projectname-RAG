@@ -81,7 +81,37 @@ def store_document(self, file_path: str) -> int:
     
     return len(all_chunks)
 ```
+2025-07-05 15:50:31,659 - INFO - HTTP Request: GET http://192.168.0.249:6333 "HTTP/1.1 200 OK"
+2025-07-05 15:50:31,660 - INFO - ✅ 검색 엔진 초기화: 192.168.0.249:6333
+2025-07-05 15:50:32,407 - INFO - 📁 문서 로딩 및 인덱싱 시작: data/XXXXXXXXXXXXX.pdf
+2025-07-05 15:50:33,559 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-07-05 15:50:33,561 - INFO - Going to convert document batch...
+2025-07-05 15:50:33,561 - INFO - Initializing pipeline for StandardPdfPipeline with options hash d291d1f79894f05d312cc90dd3fdf3d3
+2025-07-05 15:50:33,562 - INFO - Accelerator device: 'cuda:0'
+2025-07-05 15:50:34,838 - INFO - Accelerator device: 'cuda:0'
+2025-07-05 15:50:35,670 - INFO - Accelerator device: 'cuda:0'
+2025-07-05 15:50:35,938 - INFO - Processing document XXXXXXXXXXXXX.pdf
+2025-07-05 15:50:41,454 - INFO - Finished converting document XXXXXXXXXXXXX.pdf in 7.90 sec.
+2025-07-05 15:50:41,460 - INFO - deleted item in tree at stack: (213, 8) => #/texts/372
+2025-07-05 15:50:41,466 - INFO - deleted item in tree at stack: (213, 6) => #/texts/370
+2025-07-05 15:50:41,472 - INFO - deleted item in tree at stack: (213, 5) => #/texts/369
+2025-07-05 15:50:41,478 - INFO - deleted item in tree at stack: (213, 4) => #/texts/368
+2025-07-05 15:50:41,485 - INFO - deleted item in tree at stack: (213, 3) => #/texts/367
+2025-07-05 15:50:41,491 - INFO - deleted item in tree at stack: (213, 2) => #/texts/366
+2025-07-05 15:50:41,497 - INFO - deleted item in tree at stack: (197, 7) => #/texts/346
+2025-07-05 15:50:41,503 - INFO - deleted item in tree at stack: (197, 6) => #/texts/345
+2025-07-05 15:50:41,509 - INFO - deleted item in tree at stack: (197, 5) => #/texts/344
+2025-07-05 15:50:41,514 - INFO - deleted item in tree at stack: (197, 4) => #/texts/343
+2025-07-05 15:50:41,521 - INFO - deleted item in tree at stack: (197, 3) => #/texts/342
+2025-07-05 15:50:41,768 - INFO - deleted item in tree at stack: (197, 2) => #/texts/341
+2025-07-05 15:50:41,774 - INFO - deleted item in tree at stack: (197, 1) => #/texts/340
+2025-07-05 15:50:41,780 - INFO - deleted item in tree at stack: (195, 2) => #/texts/338
+...
+2025-07-05 15:50:44,657 - INFO -   - 검색 경로 추천: ✅ Context-Aware Path
+2025-07-05 15:50:44,657 - INFO - =================================================================
 
+2025-07-05 15:50:44,820 - INFO - 🎉 인덱싱 작업 성공. 총 46개의 포인트가 저장되었습니다.
+```
 -----
 
 ### 2\. 적응형 검색 서버 (`2. MCP Server (dense, sparse, rrf).py`)
