@@ -154,6 +154,41 @@ def rerank(self, initial_results: List[List], query_embedding: Dict, top_k: int,
         logger.info("⚡️ 비구조화 문서 감지. Simple 가중합 경로를 실행합니다.")
         return self._simple_path(initial_results, top_k)
 ```
+``` log
+INFO:     172.17.0.2:41838 - "GET /sse HTTP/1.1" 200 OK
+INFO:     172.17.0.2:41848 - "POST /messages/?session_id=2fb4d0e1fd3c414489964697199e5468 HTTP/1.1" 202 Accepted
+INFO:     172.17.0.2:41848 - "POST /messages/?session_id=2fb4d0e1fd3c414489964697199e5468 HTTP/1.1" 202 Accepted
+INFO:     172.17.0.2:41858 - "POST /messages/?session_id=2fb4d0e1fd3c414489964697199e5468 HTTP/1.1" 202 Accepted
+2025-07-05 17:04:52,617 - INFO - Processing request of type ListToolsRequest
+INFO:     172.17.0.2:41848 - "POST /messages/?session_id=2fb4d0e1fd3c414489964697199e5468 HTTP/1.1" 202 Accepted
+2025-07-05 17:04:54,062 - INFO - Processing request of type CallToolRequest
+2025-07-05 17:04:54,062 - INFO - ▶️  새로운 검색 요청: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ? ', {'top_k': 5, 'page': None, 'element_type': None}
+2025-07-05 17:04:54,097 - INFO -     ⏱️  [쿼리 임베딩] 소요 시간: 34.85 ms
+2025-07-05 17:04:54,100 - INFO - HTTP Request: POST http://192.168.0.249:6333/collections/docling_search/points/query/batch "HTTP/1.1 200 OK"
+2025-07-05 17:04:54,101 - INFO -      - 초기 후보군 확보: Dense 15개, Sparse 15개
+2025-07-05 17:04:54,101 - INFO -     ⏱️  [초기 DB 검색] 소요 시간: 4.18 ms
+2025-07-05 17:04:54,101 - INFO - ⚡️ 구조화된 문서 감지. Context-Aware 경로를 실행합니다.
+2025-07-05 17:04:54,102 - INFO -     ⏱️  [  - (Rerank) RRF 융합] 소요 시간: 0.02 ms
+2025-07-05 17:04:54,103 - INFO - HTTP Request: POST http://192.168.0.249:6333/collections/docling_search/points/scroll "HTTP/1.1 200 OK"
+2025-07-05 17:04:54,103 - INFO -      - 적응형 Alpha: 구조화 비율 100.0% -> alpha 0.6 적용
+2025-07-05 17:04:54,104 - INFO -     ⏱️  [  - (Rerank) 부모 문맥 재정렬] 소요 시간: 1.54 ms
+2025-07-05 17:04:54,104 - INFO -      - 다양성 필터링: 15개 후보 -> 5개 선택
+2025-07-05 17:04:54,104 - INFO -     ⏱️  [  - (Rerank) 다양성 필터링] 소요 시간: 0.03 ms
+2025-07-05 17:04:54,104 - INFO -     ⏱️  [결과 포맷팅] 소요 시간: 0.03 ms
+2025-07-05 17:04:54,104 - INFO - --------------------------------------------------
+2025-07-05 17:04:54,104 - INFO - ⏱️  [성능 요약]
+2025-07-05 17:04:54,104 - INFO -   - 쿼리 임베딩                   : 34.85 ms
+2025-07-05 17:04:54,104 - INFO -   - 초기 DB 검색                 : 4.18 ms
+2025-07-05 17:04:54,104 - INFO -   - 재정렬 (전체)                 : 2.15 ms
+2025-07-05 17:04:54,104 - INFO -   -   - (Rerank) RRF 융합      : 0.02 ms
+2025-07-05 17:04:54,104 - INFO -   -   - (Rerank) 부모 문맥 재정렬   : 1.54 ms
+2025-07-05 17:04:54,104 - INFO -   -   - (Rerank) 다양성 필터링     : 0.03 ms
+2025-07-05 17:04:54,104 - INFO -   - 결과 포맷팅                   : 0.03 ms
+2025-07-05 17:04:54,104 - INFO -   - 총 검색 시간                  : 41.32 ms
+2025-07-05 17:04:54,104 - INFO - --------------------------------------------------
+```
+
+
 
 -----
 
