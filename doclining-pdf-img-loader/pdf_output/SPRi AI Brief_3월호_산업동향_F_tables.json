@@ -1,0 +1,396 @@
+[
+  {
+    "index": 0,
+    "headers": [
+      "정책 ･ 법제",
+      "∙ 미국 국가AI자문위원회, 트럼프 행정부 대상 AI 정책 보고서 발간",
+      "2"
+    ],
+    "data": [
+      [
+        "",
+        "∙ 파리 AI 행동 정상회의, AI의 공공성·지속가능성과 함께 규제 완화 논의",
+        "3"
+      ],
+      [
+        "",
+        "∙ EU 집행위원회, 경쟁력 강화 로드맵의 일환으로 AI 기가팩토리 구축 추진",
+        "4"
+      ],
+      [
+        "",
+        "∙ EU 집행위원회, 2025년 업무 프로그램에서 'AI 책임 지침' 철회 계획 발표",
+        "5"
+      ],
+      [
+        "",
+        "∙ 영국, AI안전연구소의 명칭 AI보안연구소로 변경하고 앤스로픽과 AI 협력 발표",
+        "6"
+      ],
+      [
+        "기업 ･ 산업",
+        "∙ 구글, 성능 개선한 '제미나이 2.0'제품군 확대 출시",
+        "8"
+      ],
+      [
+        "",
+        "∙ 오픈AI, 심층 조사를 수행하는 에이전트 '딥 리서치' 공개",
+        "9"
+      ],
+      [
+        "",
+        "∙ 오픈AI, GPT-5 출시 로드맵 발표 및 GPT-4.5 프리뷰 공개",
+        "10"
+      ],
+      [
+        "",
+        "∙ xAI, 최신 AI모델 '그록 3' 프리뷰 출시",
+        "11"
+      ],
+      [
+        "",
+        "∙ 퍼플렉시티, 심층 조사와 분석을 수행하는 '딥 리서치' 무료 출시",
+        "12"
+      ],
+      [
+        "",
+        "∙ 알리바바, 딥시크 V3 능가하는 성능의 '큐원2.5-Max' 출시",
+        "13"
+      ],
+      [
+        "",
+        "∙ 아크 인베스트, 2025년 혁신 기술 중 하나로 AI에이전트 선정",
+        "14"
+      ],
+      [
+        "기술 ･ 연구",
+        "∙ 상하이교통⼤ 연구진, 소량의 고품질 데이터를 활용한 추론 AI 모델 개발",
+        "16"
+      ],
+      [
+        "",
+        "∙ 스탠포드⼤와 워싱턴⼤ 연구진, 저비용으로 고성능 추론 AI 모델 개발",
+        "17"
+      ],
+      [
+        "",
+        "∙ 바이트댄스, 인물 움직임을 생성하는 AI모델 '옴니휴먼-1'개발",
+        "18"
+      ],
+      [
+        "",
+        "∙ AI안전센터와 스케일 AI, 고난도 벤치마크 'HLE'공개",
+        "19"
+      ],
+      [
+        "인력 ･ 교육",
+        "∙ 딜로이트 조사 결과, 전 세계 기업들은 점진적으로 AI 도입 확대",
+        "21"
+      ],
+      [
+        "",
+        "∙ 마이크로소프트 연구 결과, 생성 AI 신뢰할수록 비판적 사고 감소",
+        "22"
+      ],
+      [
+        "",
+        "∙ 앤스로픽, AI가 노동시장에 미치는 영향을 분석한 '앤스로픽 경제 지수'공개",
+        "23"
+      ],
+      [
+        "",
+        "∙ 앤스로픽을 비롯한 여러 기업들, 입사 지원 시 AI도구 사용금지 요구",
+        "24"
+      ],
+      [
+        "주요행사일정",
+        "",
+        "25"
+      ]
+    ],
+    "row_count": 21,
+    "column_count": 3,
+    "raw_content": "| 정책 ･ 법제   | ∙ 미국 국가AI자문위원회, 트럼프 행정부 대상 AI 정책 보고서 발간             |   2 |\n|               | ∙ 파리 AI 행동 정상회의, AI의 공공성·지속가능성과 함께 규제 완화 논의       |   3 |\n|               | ∙ EU 집행위원회, 경쟁력 강화 로드맵의 일환으로 AI 기가팩토리 구축 추진      |   4 |\n|               | ∙ EU 집행위원회, 2025년 업무 프로그램에서 'AI 책임 지침' 철회 계획 발표     |   5 |\n|               | ∙ 영국, AI안전연구소의 명칭 AI보안연구소로 변경하고 앤스로픽과 AI 협력 발표 |   6 |\n| 기업 ･ 산업   | ∙ 구글, 성능 개선한 '제미나이 2.0'제품군 확대 출시                          |   8 |\n|               | ∙ 오픈AI, 심층 조사를 수행하는 에이전트 '딥 리서치' 공개                    |   9 |\n|               | ∙ 오픈AI, GPT-5 출시 로드맵 발표 및 GPT-4.5 프리뷰 공개                     |  10 |\n|               | ∙ xAI, 최신 AI모델 '그록 3' 프리뷰 출시                                     |  11 |\n|               | ∙ 퍼플렉시티, 심층 조사와 분석을 수행하는 '딥 리서치' 무료 출시             |  12 |\n|               | ∙ 알리바바, 딥시크 V3 능가하는 성능의 '큐원2.5-Max' 출시                    |  13 |\n|               | ∙ 아크 인베스트, 2025년 혁신 기술 중 하나로 AI에이전트 선정                 |  14 |\n| 기술 ･ 연구   | ∙ 상하이교통⼤ 연구진, 소량의 고품질 데이터를 활용한 추론 AI 모델 개발      |  16 |\n|               | ∙ 스탠포드⼤와 워싱턴⼤ 연구진, 저비용으로 고성능 추론 AI 모델 개발         |  17 |\n|               | ∙ 바이트댄스, 인물 움직임을 생성하는 AI모델 '옴니휴먼-1'개발                |  18 |\n|               | ∙ AI안전센터와 스케일 AI, 고난도 벤치마크 'HLE'공개                         |  19 |\n| 인력 ･ 교육   | ∙ 딜로이트 조사 결과, 전 세계 기업들은 점진적으로 AI 도입 확대              |  21 |\n|               | ∙ 마이크로소프트 연구 결과, 생성 AI 신뢰할수록 비판적 사고 감소             |  22 |\n|               | ∙ 앤스로픽, AI가 노동시장에 미치는 영향을 분석한 '앤스로픽 경제 지수'공개   |  23 |\n|               | ∙ 앤스로픽을 비롯한 여러 기업들, 입사 지원 시 AI도구 사용금지 요구          |  24 |\n| 주요행사일정  |                                                                             |  25 |"
+  },
+  {
+    "index": 1,
+    "headers": [
+      "월",
+      "기간",
+      "행사명",
+      "장소",
+      "홈페이지"
+    ],
+    "data": [
+      [
+        "1월",
+        "7~10일",
+        "(CES 2025) The International Consumer Electronics Show",
+        "미국,라스베이거스",
+        "www.ces.tech"
+      ],
+      [
+        "2월",
+        "5~6일",
+        "AI & Big Data Expo Global 2025",
+        "영국, 런던",
+        "www.ai-expo.net/global"
+      ],
+      [
+        "2월",
+        "11~11일",
+        "AI Seoul 2025",
+        "서울, 강남",
+        "aiseoul2025.com/home"
+      ],
+      [
+        "2월",
+        "15~16일",
+        "(AIMLA 2025) International Conference on AI, Machine Learning and Applications",
+        "인도,첸나이",
+        "ccnet2025.org/aimla/index"
+      ],
+      [
+        "2월",
+        "24~26일",
+        "Generative AI DACH 2025",
+        "독일,베를린",
+        "www.aidataanalytics.network/ev ents-generative-ai-dach"
+      ],
+      [
+        "2월",
+        "27~4일",
+        "(AAAI 2025) Association for the Advancement of Artificial Intelligence Conference",
+        "미국, 필라델피아",
+        "aaai.org/conference/aaai/aaai-25"
+      ],
+      [
+        "3월",
+        "17~21일",
+        "NVIDIA GTC 2025",
+        "미국,산호세 (온라인 병행)",
+        "www.nvidia.com/ko-kr/gtc"
+      ],
+      [
+        "3월",
+        "26~27일",
+        "Chief Data & Analytics Officers",
+        "캐나다, 토론토",
+        "cdao-canada.coriniumintelligence.com"
+      ],
+      [
+        "3월",
+        "26일",
+        "Cloud & AI Infrastructure Summit 2025 Korea",
+        "서울, 송파",
+        "www.idc.com/ap/events/71957 -cloud-ai-infrastructure-summi t-2025-korea"
+      ],
+      [
+        "4월",
+        "15~16일",
+        "World Summit AI Americas",
+        "캐나다,몬트리올",
+        "americas.worldsummit.ai"
+      ],
+      [
+        "4월",
+        "24~26일",
+        "월드IT쇼 2025",
+        "서울, 강남",
+        "www.worlditshow.co.kr"
+      ],
+      [
+        "4월",
+        "29~30일",
+        "Generative AI Summit",
+        "미국, 산타클라라",
+        "world.aiacceleratorinstitute.com/ location/siliconvalley"
+      ],
+      [
+        "5월",
+        "5~7일",
+        "(IEEE CAI 2025) IEEE Conference on Artificial Intelligence",
+        "미국, 산타클라라",
+        "cai.ieee.org/2025"
+      ],
+      [
+        "5월",
+        "6~8일",
+        "Microsoft 365 Conference",
+        "미국,라스베이거스",
+        "m365conf.com"
+      ],
+      [
+        "5월",
+        "14~16일",
+        "국제인공지능대전",
+        "서울, 강남",
+        "www.aiexpo.co.kr"
+      ],
+      [
+        "5월",
+        "14일",
+        "Rise of AI Conference",
+        "독일,베를린(온라인병행)",
+        "riseof.ai/conference-2025"
+      ],
+      [
+        "5월",
+        "19~22일",
+        "Microsoft Build 2025",
+        "미국,시애틀",
+        "build.microsoft.com/en-US/home"
+      ],
+      [
+        "5월",
+        "21~23일",
+        "2025 산업AI EXPO",
+        "서울, 강서",
+        "industrialaiexpo.or.kr"
+      ],
+      [
+        "6월",
+        "4~5일",
+        "AI & Big Data Expo North America 2025",
+        "미국, 산타클라라",
+        "www.ai-expo.net/northamerica"
+      ],
+      [
+        "6월",
+        "11~15일",
+        "(CVPR 2025) The IEEE / CVF Computer Vision and Pattern Recognition Conference",
+        "미국,네슈빌",
+        "cvpr.thecvf.com"
+      ],
+      [
+        "6월",
+        "11~12일",
+        "AI SUMMIT LONDON",
+        "영국, 런던",
+        "london.theaisummit.com"
+      ],
+      [
+        "6월",
+        "11~13일",
+        "(STK 2025)스마트테크코리아",
+        "서울, 강남",
+        "smarttechkorea.com"
+      ],
+      [
+        "6월",
+        "18~19일",
+        "AI World Congress 2025",
+        "영국, 런던",
+        "aiconference.london"
+      ],
+      [
+        "6월",
+        "18~20일",
+        "(MVEX 2025) 2025메타버스엑스포",
+        "서울, 강남",
+        "metavexpo.com"
+      ],
+      [
+        "7월",
+        "8~11일",
+        "AI for Good Global Summit 2025",
+        "스위스, 제네바",
+        "aiforgood.itu.int"
+      ],
+      [
+        "7월",
+        "13~19일",
+        "ICML 2025",
+        "캐나다, 밴쿠버",
+        "icml.cc"
+      ],
+      [
+        "7월",
+        "25~27일",
+        "(AICSIP 2025) 2025 IEEE 7th International Conference on Artificial Intelligence, Computer Science and Information Processing",
+        "중국,항저우",
+        "www.aicsconf.cn"
+      ],
+      [
+        "7월",
+        "27~1일",
+        "(ACL 2025) the Association for Computational Linguistics",
+        "오스트리아,빈",
+        "2025.aclweb.org"
+      ],
+      [
+        "8월 9월",
+        "11~13일",
+        "(Ai4 2025) the Forefront of AI Innovation",
+        "미국,라스베이거스",
+        "ai4.io/vegas"
+      ],
+      [
+        "8월 9월",
+        "9~11일",
+        "AI Infra Summit 2025",
+        "미국, 산타클라라",
+        "www.ai-infra-summit.com"
+      ],
+      [
+        "8월 9월",
+        "17~18일",
+        "The AI Conference",
+        "미국,샌프란시스코",
+        "aiconference.com"
+      ],
+      [
+        "",
+        "24~25일",
+        "AI & Big Data Expo EUROPE 2025",
+        "네덜란드,암스테르담",
+        "www.ai-expo.net/europe"
+      ],
+      [
+        "10월",
+        "8~9일",
+        "World Summit AI",
+        "네덜란드,암스테르담",
+        "worldsummit.ai"
+      ],
+      [
+        "",
+        "10~11일",
+        "AI Summit Seoul",
+        "서울, 강남",
+        "www.aisummitseoul.com"
+      ],
+      [
+        "11월",
+        "13~14일",
+        "AI and Machine Learning Conference 2025",
+        "싱가포르",
+        "pubscholars.org/ai-and-machin e-learning-conference"
+      ],
+      [
+        "11월",
+        "17~21일",
+        "Microsoft Ignite",
+        "미국,샌프란시스코",
+        "ignite.microsoft.com"
+      ],
+      [
+        "",
+        "3~5일",
+        "(소프트웨이브 2025)10회대한민국소프트웨어대전",
+        "서울, 강남",
+        "www.k-softwave.com"
+      ],
+      [
+        "12월",
+        "10~11일",
+        "AI Summit New York",
+        "미국, 뉴욕",
+        "newyork.theaisummit.com"
+      ]
+    ],
+    "row_count": 39,
+    "column_count": 5,
+    "raw_content": "| 월      | 기간    | 행사명                                                                                                                       | 장소                      | 홈페이지                                                                |\n| 1월     | 7~10일  | (CES 2025) The International Consumer Electronics Show                                                                       | 미국,라스베이거스         | www.ces.tech                                                            |\n| 2월     | 5~6일   | AI & Big Data Expo Global 2025                                                                                               | 영국, 런던                | www.ai-expo.net/global                                                  |\n| 2월     | 11~11일 | AI Seoul 2025                                                                                                                | 서울, 강남                | aiseoul2025.com/home                                                    |\n| 2월     | 15~16일 | (AIMLA 2025) International Conference on AI, Machine Learning and Applications                                               | 인도,첸나이               | ccnet2025.org/aimla/index                                               |\n| 2월     | 24~26일 | Generative AI DACH 2025                                                                                                      | 독일,베를린               | www.aidataanalytics.network/ev ents-generative-ai-dach                  |\n| 2월     | 27~4일  | (AAAI 2025) Association for the Advancement of Artificial Intelligence Conference                                            | 미국, 필라델피아          | aaai.org/conference/aaai/aaai-25                                        |\n| 3월     | 17~21일 | NVIDIA GTC 2025                                                                                                              | 미국,산호세 (온라인 병행) | www.nvidia.com/ko-kr/gtc                                                |\n| 3월     | 26~27일 | Chief Data & Analytics Officers                                                                                              | 캐나다, 토론토            | cdao-canada.coriniumintelligence.com                                    |\n| 3월     | 26일    | Cloud & AI Infrastructure Summit 2025 Korea                                                                                  | 서울, 송파                | www.idc.com/ap/events/71957 -cloud-ai-infrastructure-summi t-2025-korea |\n| 4월     | 15~16일 | World Summit AI Americas                                                                                                     | 캐나다,몬트리올           | americas.worldsummit.ai                                                 |\n| 4월     | 24~26일 | 월드IT쇼 2025                                                                                                                | 서울, 강남                | www.worlditshow.co.kr                                                   |\n| 4월     | 29~30일 | Generative AI Summit                                                                                                         | 미국, 산타클라라          | world.aiacceleratorinstitute.com/ location/siliconvalley                |\n| 5월     | 5~7일   | (IEEE CAI 2025) IEEE Conference on Artificial Intelligence                                                                   | 미국, 산타클라라          | cai.ieee.org/2025                                                       |\n| 5월     | 6~8일   | Microsoft 365 Conference                                                                                                     | 미국,라스베이거스         | m365conf.com                                                            |\n| 5월     | 14~16일 | 국제인공지능대전                                                                                                             | 서울, 강남                | www.aiexpo.co.kr                                                        |\n| 5월     | 14일    | Rise of AI Conference                                                                                                        | 독일,베를린(온라인병행)   | riseof.ai/conference-2025                                               |\n| 5월     | 19~22일 | Microsoft Build 2025                                                                                                         | 미국,시애틀               | build.microsoft.com/en-US/home                                          |\n| 5월     | 21~23일 | 2025 산업AI EXPO                                                                                                             | 서울, 강서                | industrialaiexpo.or.kr                                                  |\n| 6월     | 4~5일   | AI & Big Data Expo North America 2025                                                                                        | 미국, 산타클라라          | www.ai-expo.net/northamerica                                            |\n| 6월     | 11~15일 | (CVPR 2025) The IEEE / CVF Computer Vision and Pattern Recognition Conference                                                | 미국,네슈빌               | cvpr.thecvf.com                                                         |\n| 6월     | 11~12일 | AI SUMMIT LONDON                                                                                                             | 영국, 런던                | london.theaisummit.com                                                  |\n| 6월     | 11~13일 | (STK 2025)스마트테크코리아                                                                                                   | 서울, 강남                | smarttechkorea.com                                                      |\n| 6월     | 18~19일 | AI World Congress 2025                                                                                                       | 영국, 런던                | aiconference.london                                                     |\n| 6월     | 18~20일 | (MVEX 2025) 2025메타버스엑스포                                                                                               | 서울, 강남                | metavexpo.com                                                           |\n| 7월     | 8~11일  | AI for Good Global Summit 2025                                                                                               | 스위스, 제네바            | aiforgood.itu.int                                                       |\n| 7월     | 13~19일 | ICML 2025                                                                                                                    | 캐나다, 밴쿠버            | icml.cc                                                                 |\n| 7월     | 25~27일 | (AICSIP 2025) 2025 IEEE 7th International Conference on Artificial Intelligence, Computer Science and Information Processing | 중국,항저우               | www.aicsconf.cn                                                         |\n| 7월     | 27~1일  | (ACL 2025) the Association for Computational Linguistics                                                                     | 오스트리아,빈             | 2025.aclweb.org                                                         |\n| 8월 9월 | 11~13일 | (Ai4 2025) the Forefront of AI Innovation                                                                                    | 미국,라스베이거스         | ai4.io/vegas                                                            |\n| 8월 9월 | 9~11일  | AI Infra Summit 2025                                                                                                         | 미국, 산타클라라          | www.ai-infra-summit.com                                                 |\n| 8월 9월 | 17~18일 | The AI Conference                                                                                                            | 미국,샌프란시스코         | aiconference.com                                                        |\n|         | 24~25일 | AI & Big Data Expo EUROPE 2025                                                                                               | 네덜란드,암스테르담       | www.ai-expo.net/europe                                                  |\n| 10월    | 8~9일   | World Summit AI                                                                                                              | 네덜란드,암스테르담       | worldsummit.ai                                                          |\n|         | 10~11일 | AI Summit Seoul                                                                                                              | 서울, 강남                | www.aisummitseoul.com                                                   |\n| 11월    | 13~14일 | AI and Machine Learning Conference 2025                                                                                      | 싱가포르                  | pubscholars.org/ai-and-machin e-learning-conference                     |\n| 11월    | 17~21일 | Microsoft Ignite                                                                                                             | 미국,샌프란시스코         | ignite.microsoft.com                                                    |\n|         | 3~5일   | (소프트웨이브 2025)10회대한민국소프트웨어대전                                                                                | 서울, 강남                | www.k-softwave.com                                                      |\n| 12월    | 10~11일 | AI Summit New York                                                                                                           | 미국, 뉴욕                | newyork.theaisummit.com                                                 |"
+  }
+]

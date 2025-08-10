@@ -1,0 +1,21 @@
+=== 표 1 ===
+행 수: 7, 열 수: 3
+헤더: Report, Question, Answer
+데이터:
+  IBM 2022 | How many hours were spent on employee learning in 2021? | 22.5 million hours
+  IBM 2022 | What was the rate of fatalities in 2021? | The rate of fatalities in 2021 was 0.0016.
+  IBM 2022 | How many full audits were con- ducted in 2022 in India? | 2
+  Starbucks 2022 | What is the percentage of women in the Board of Directors? | 25%
+  Starbucks 2022 | What was the total energy con- sumption in 2021? | According to the table, the total energy consumption in 2021 was 2,491,543 MWh.
+  Starbucks 2022 | How much packaging material was made from renewable mate- rials? | According to the given data, 31% of packaging materials were made from recycled or renewable materials in FY22.
+
+원본 내용:
+| Report         | Question                                                         | Answer                                                                                                          |
+| IBM 2022       | How many hours were spent on employee learning in 2021?          | 22.5 million hours                                                                                              |
+| IBM 2022       | What was the rate of fatalities in 2021?                         | The rate of fatalities in 2021 was 0.0016.                                                                      |
+| IBM 2022       | How many full audits were con- ducted in 2022 in India?          | 2                                                                                                               |
+| Starbucks 2022 | What is the percentage of women in the Board of Directors?       | 25%                                                                                                             |
+| Starbucks 2022 | What was the total energy con- sumption in 2021?                 | According to the table, the total energy consumption in 2021 was 2,491,543 MWh.                                 |
+| Starbucks 2022 | How much packaging material was made from renewable mate- rials? | According to the given data, 31% of packaging materials were made from recycled or renewable materials in FY22. |
+==================================================
+
